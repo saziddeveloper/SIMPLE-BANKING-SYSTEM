@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BANKING SYSTEM USING JAVASCRIPT"/>
+    <meta name="keywords"content="JAVASCRIPT, SIMPLE BANKING SYSTEM, BANK, Ashaduzzaman,Sazid,Ashaduzzaman (Sazid)"/>
+    <meta name="author" content="Ashaduzzaman Sazid"/>
+    <title>Simple Banking System</title>
+    <link rel="shortcut icon" href="img/favicon-simple-banking-system.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/bank.css">
+</head>
+<body>
+    <main>
+        <h1>Let's gets some <span>Money</span></h1>
+        <!-- Balance -->
+        <section>
+            <aside>
+                <h3>Balance</h3>
+                <h2>$<span id="main-balance">840</span></h2>
+            </aside>
+            <aside>
+                <h3>Deposit</h3>
+                <h2>$<span id="deposit-balance">00</span></h2>
+            </aside>
+            <aside>
+                <h3>Withdraw</h3>
+                <h2>$<span id="withdrawal-balance">00</span></h2>
+            </aside>
+        </section>
+        <!-- Deposit & Withdraw -->
+        <article>
+            <aside>
+                <h2>Deposit System</h2>
+                <input type="text" id="deposit-field" placeholder="Enter Deposit Amount">
+                <button id="btn-deposit" type="submit">Deposit</button>
+            </aside>
+            <aside>
+                <h2>Withdrawal System</h2>
+                <input type="text" id="withdrawal-field" placeholder="Enter Withdrawal Amount">
+                <button id="btn-withdraw" type="submit">Withdraw</button>
+            </aside>
+        </article>
+    </main>
+    <script src="js/utilities.js"></script>
+    <script src="js/deposit.js"></script>
+    <script src="js/withdraw.js"></script>
+</body>
+</html>

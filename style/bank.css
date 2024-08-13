@@ -1,0 +1,109 @@
+body {
+    padding: 0 5px;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+}
+main {
+    width: 300px;
+    border: 3px solid rgba(196, 120, 106, 0.678);
+    border-radius: 5px;
+    padding: 5px 30px 44px;
+    background-color: rgba(83, 79, 72, 0.445);
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*--------------- section-1 CSS --------------*/
+h1{
+    color: rgb(49, 48, 48);
+    font-family: monospace;
+    font-size: 26px;
+    text-align: center;
+    margin-left: -21px;
+    margin-right: -23px;
+}
+h1 span{
+    color: rgb(156, 93, 82);
+}
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+section aside {
+    background-color: rgba(156, 93, 82, 0.904);
+    border-radius: 8px;
+    width: 95px;
+    height: 95px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+section aside h3, h2 {
+    margin: 0;
+    color: rgb(24, 23, 23);
+    font-family: fantasy;
+    font-weight: 200;
+}
+
+
+/*----------------- section-2 CSS -----------------*/
+article aside {
+    background-color: rgba(156, 93, 82, 0.904);
+    border-radius: 8px;
+    padding: 12px 10px;
+    margin-top: 10px;
+}
+article aside:first-child {
+    margin-top: 30px;
+}
+h2 {
+    color: rgb(49, 48, 48);
+    font-size: 20px;
+}
+input {
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 10px 8px 10px 18px;
+    border: 2px solid rgba(177, 106, 93, 0.897);
+    background-color: rgba(92, 58, 53, 0.897);
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(49, 48, 48);
+    font-family: sans-serif;
+}
+button {
+    padding: 6px 14px 6px 14px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 2px solid rgba(75, 71, 71, 0.842);
+    background-color: rgb(145, 102, 94);
+    border-radius: 4px;
+    font-size: 19px;
+    font-family: monospace;
+    font-weight: 600;
+    color: rgb(49, 48, 48);
+}
+button:hover {
+    border: 2px solid rgb(44, 43, 43);
+    color: rgb(44, 43, 43);
+}
+
+/*------------------------------------
+----- add media query for mobile -----
+------------------------------------*/
+@media only screen and (max-width: 720px) {
+    main {
+        margin-top: 30px;
+    }
+    h1{
+        word-spacing: -5px;
+        margin-left: -31px;
+        margin-right: -31px
+    }
+}
