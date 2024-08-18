@@ -93,6 +93,9 @@ button:hover {
     border: 2px solid rgb(44, 43, 43);
     color: rgb(44, 43, 43);
 }
+button:active {
+    background-color: rgb(118 78 70);
+}
 
 /*------------------------------------
 ----- add media query for mobile -----
